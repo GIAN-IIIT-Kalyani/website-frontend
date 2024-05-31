@@ -1,17 +1,10 @@
 body{
   margin: 0;
-  background-color: rgb(217, 217, 217);
+  background-color: rgb(232, 250, 223);
 }
-.shape1_c{
-  position: relative;;
-
-}
-.shape2_c{
+.shape_c{
   position: relative;
 }
-.shape1{
-  width: 100%;
-}
-.shape2{
+.shape{
   width: 100%;
 }
