@@ -8,3 +8,56 @@ body{
 .shape{
   width: 100%;
 }
+.navbar{
+  height:75px;
+  background-color:#fff;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.09);
+  position:sticky;
+  display:flex;
+  justify-content: space-between;
+}
+.logo .iiit-k{
+  height:40px;
+  width:35px;
+  position:absolute;
+  top:20px;
+  left:130px;
+}
+.logo .gian{
+  height:75px;
+  width:70px;
+  position:absolute;
+  left:25px;
+}
+.navbar h1{
+  position:absolute;
+  top:10px;
+  left:110px;
+  font-size:25px;
+  color:#898888;
+}
+.menu{
+  width:500px;
+}
+.menu a{
+  text-decoration:none;
+  font-family:"Quicksand", sans-serif;
+  color:#3C3636;
+  line-height:50px;
+  font-size:17px;
+}
+.menu a:focus{
+  color:#EEC63C;
+  font-family:"Archivo", sans-serif;
+}
+.menu li{
+  display:inline-block;
+  margin-right:15px;
+}
+.menu li span{
+  font-size:20px;
+  color:#898888;
+  position:relative;
+  left:10px;
+  font-weight:900;
+}
