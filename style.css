@@ -1,10 +1,71 @@
-body{
+h1,
+p
+{
   margin: 0;
-  background-color: rgb(232, 250, 223);
+  padding: 0;
 }
-.shape_c{
+
+body{
+  scroll-behavior: smooth;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #E8FADF;
+  background-image: url(public/shape.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vision-and-mission {
+  padding: 20px;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.vision-and-mission-Ccontent {
+  position: absolute;
+  width: inherit;
+  height: auto;
+  margin-top: 50%;
+  margin-left: 5px;
+  text-align: center;
+  transform: translateY(-50%);
+  font-family: Poppins;
+}
+.vision-and-mission-circle {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%;
+  box-shadow: 0px -5px 8px rgb(143, 142, 142);
+  background-color: white;
+  border: 5px solid gold;
+  margin: 10% auto;
   position: relative;
 }
-.shape{
-  width: 100%;
+
+.vision-and-mission-circle h1 {
+  margin: -25px;
+  font-size: 70px;
+}
+
+.vision-and-mission-content p {
+  font-weight: bold;
+  line-height: 1.6;
+  font-size: 22px;
+  font-family: Poppins;
+}
+
+@media (max-width: 600px) {
+  .vision-and-mission-circle h1 {
+    font-size: 1.5em;
+  }
+
+  .vision-and-mission-content p {
+    font-size: 0.9em;
+  }
 }
